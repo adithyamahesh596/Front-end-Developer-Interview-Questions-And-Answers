@@ -11,7 +11,10 @@ sometimes don't need to add event listeners for every element.
 
 #### Explain how `this` works in JavaScript
 
-*Not answered yet*
+A general reference holder that applies to different values based on scope and how it is called.
+* The value of "this" when used in an function, is the object that owns the function.
+* The value of "this" when used in an object, is the object itself.
+* When used outside a function or an object, then "this" refers to global object.
 
 #### Explain how prototypal inheritance works
 
